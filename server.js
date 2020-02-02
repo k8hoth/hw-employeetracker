@@ -322,5 +322,5 @@ const viewTotals = () => {
 function validateNr(nr)
 {
     const reg = /^\d+$/;
-    return reg.test(nr) || "This should be a number!";
+    return reg.test(nr) || "Dept Number please!";
 }
